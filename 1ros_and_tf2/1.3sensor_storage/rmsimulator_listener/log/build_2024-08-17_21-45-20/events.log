@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000205] (rmsimulator_listener) JobQueued: {'identifier': 'rmsimulator_listener', 'dependencies': OrderedDict()}
+[0.000222] (rmsimulator_listener) JobStarted: {'identifier': 'rmsimulator_listener'}
+[0.004877] (rmsimulator_listener) JobProgress: {'identifier': 'rmsimulator_listener', 'progress': 'cmake'}
+[0.005032] (rmsimulator_listener) Command: {'cmd': ['/usr/bin/cmake', '/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener', '-DCMAKE_INSTALL_PREFIX=/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener'], 'cwd': '/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/build/rmsimulator_listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'qing'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/qing'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1901'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=14f23ccc666bf39ec1093b2866c09d99'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qing'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qing-5520:@/tmp/.ICE-unix/1901,unix/qing-5520:/tmp/.ICE-unix/1901'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f424be4a_33f0_4f56_8c1e_fc185c67e556'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JRHNS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/build/rmsimulator_listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=14f23ccc666bf39ec1093b2866c09d99'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.035064] (rmsimulator_listener) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.065612] (rmsimulator_listener) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.069804] (rmsimulator_listener) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099221] (-) TimerEvent: {}
+[0.107383] (rmsimulator_listener) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.111764] (rmsimulator_listener) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.112053] (rmsimulator_listener) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.112186] (rmsimulator_listener) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.113948] (rmsimulator_listener) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.159734] (rmsimulator_listener) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.163852] (rmsimulator_listener) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.164079] (rmsimulator_listener) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.164266] (rmsimulator_listener) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.165433] (rmsimulator_listener) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199338] (-) TimerEvent: {}
+[0.252056] (rmsimulator_listener) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.298096] (rmsimulator_listener) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299432] (-) TimerEvent: {}
+[0.323030] (rmsimulator_listener) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.325655] (rmsimulator_listener) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.330592] (rmsimulator_listener) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.338717] (rmsimulator_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.350164] (rmsimulator_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.392511] (rmsimulator_listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.393862] (rmsimulator_listener) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399565] (-) TimerEvent: {}
+[0.449456] (rmsimulator_listener) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.464918] (rmsimulator_listener) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.491637] (rmsimulator_listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.496263] (rmsimulator_listener) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.499683] (-) TimerEvent: {}
+[0.544551] (rmsimulator_listener) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.544793] (rmsimulator_listener) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.590534] (rmsimulator_listener) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.591387] (rmsimulator_listener) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.599893] (-) TimerEvent: {}
+[0.685051] (rmsimulator_listener) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.700113] (-) TimerEvent: {}
+[0.711109] (rmsimulator_listener) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.757942] (rmsimulator_listener) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.758088] (rmsimulator_listener) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.758153] (rmsimulator_listener) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.758660] (rmsimulator_listener) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.760847] (rmsimulator_listener) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.760981] (rmsimulator_listener) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.761098] (rmsimulator_listener) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.761616] (rmsimulator_listener) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.766108] (rmsimulator_listener) StdoutLine: {'line': b'-- Generating done\n'}
+[0.766857] (rmsimulator_listener) StdoutLine: {'line': b'-- Build files have been written to: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/build/rmsimulator_listener\n'}
+[0.773564] (rmsimulator_listener) CommandEnded: {'returncode': 0}
+[0.773783] (rmsimulator_listener) JobProgress: {'identifier': 'rmsimulator_listener', 'progress': 'build'}
+[0.773798] (rmsimulator_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/build/rmsimulator_listener', '--', '-j16', '-l16'], 'cwd': '/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/build/rmsimulator_listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'qing'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/qing'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1901'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=14f23ccc666bf39ec1093b2866c09d99'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qing'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qing-5520:@/tmp/.ICE-unix/1901,unix/qing-5520:/tmp/.ICE-unix/1901'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f424be4a_33f0_4f56_8c1e_fc185c67e556'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JRHNS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/build/rmsimulator_listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=14f23ccc666bf39ec1093b2866c09d99'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.799210] (rmsimulator_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rmsimulator_listener.dir/src/rmsimulator_listener.cpp.o\x1b[0m\n'}
+[0.800363] (-) TimerEvent: {}
+[0.900684] (-) TimerEvent: {}
+[1.000968] (-) TimerEvent: {}
+[1.101339] (-) TimerEvent: {}
+[1.201731] (-) TimerEvent: {}
+[1.302114] (-) TimerEvent: {}
+[1.402494] (-) TimerEvent: {}
+[1.502741] (-) TimerEvent: {}
+[1.603089] (-) TimerEvent: {}
+[1.703484] (-) TimerEvent: {}
+[1.803871] (-) TimerEvent: {}
+[1.904198] (-) TimerEvent: {}
+[2.004543] (-) TimerEvent: {}
+[2.104926] (-) TimerEvent: {}
+[2.116968] (rmsimulator_listener) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.117206] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.117265] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.117296] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.117322] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.117346] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.117370] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.117407] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.117431] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.117474] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.117496] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.117520] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/src/rmsimulator_listener.cpp:1\x1b[m\x1b[K:\n'}
+[2.117543] (rmsimulator_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/src/rmsimulator_listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RmsimulatorListener::updateQueue()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.117568] (rmsimulator_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/src/rmsimulator_listener.cpp:40:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%ld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99, but argument 8 has type \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.117601] (rmsimulator_listener) StderrLine: {'line': b'   40 |       RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Point: x=%f, y=%f, z=%f, stamp=%ld.%ld"\x1b[m\x1b[K, point.point.x, point.point.y, point.point.z, \x1b[32m\x1b[Kpoint.header.stamp.sec\x1b[m\x1b[K, point.header.stamp.nanosec);\n'}
+[2.117626] (rmsimulator_listener) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                               \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.117649] (rmsimulator_listener) StderrLine: {'line': b'      |                                                                                                                                                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.117673] (rmsimulator_listener) StderrLine: {'line': b'      |                                                                                                                                                 \x1b[32m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type {aka int}\x1b[m\x1b[K\n'}
+[2.117697] (rmsimulator_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/src/rmsimulator_listener.cpp:40:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.117721] (rmsimulator_listener) StderrLine: {'line': b'   40 | _INFO(this->get_logger(), "Point: x=%f, y=%f, z=%f, stamp=\x1b[01;36m\x1b[K%ld\x1b[m\x1b[K.%ld", point.point.x, point.point.y, point.point.z, point.header.stamp.sec, point.header.stamp.nanosec);\n'}
+[2.117744] (rmsimulator_listener) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[2.117767] (rmsimulator_listener) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.117789] (rmsimulator_listener) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Klong int\x1b[m\x1b[K\n'}
+[2.117814] (rmsimulator_listener) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[2.117837] (rmsimulator_listener) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.117859] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.117882] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.117904] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.117926] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.117952] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.117974] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.117998] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.118020] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.118043] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.118065] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.118088] (rmsimulator_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/src/rmsimulator_listener.cpp:1\x1b[m\x1b[K:\n'}
+[2.118110] (rmsimulator_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/src/rmsimulator_listener.cpp:40:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%ld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99, but argument 9 has type \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_nanosec_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.118136] (rmsimulator_listener) StderrLine: {'line': b'   40 |       RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Point: x=%f, y=%f, z=%f, stamp=%ld.%ld"\x1b[m\x1b[K, point.point.x, point.point.y, point.point.z, point.header.stamp.sec, \x1b[32m\x1b[Kpoint.header.stamp.nanosec\x1b[m\x1b[K);\n'}
+[2.118159] (rmsimulator_listener) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                                                       \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.118181] (rmsimulator_listener) StderrLine: {'line': b'      |                                                                                                                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.118205] (rmsimulator_listener) StderrLine: {'line': b'      |                                                                                                                                                                         \x1b[32m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_nanosec_type {aka unsigned int}\x1b[m\x1b[K\n'}
+[2.118230] (rmsimulator_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/src/rmsimulator_listener.cpp:40:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.118253] (rmsimulator_listener) StderrLine: {'line': b'   40 | O(this->get_logger(), "Point: x=%f, y=%f, z=%f, stamp=%ld.\x1b[01;36m\x1b[K%ld\x1b[m\x1b[K", point.point.x, point.point.y, point.point.z, point.header.stamp.sec, point.header.stamp.nanosec);\n'}
+[2.118276] (rmsimulator_listener) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[2.118299] (rmsimulator_listener) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.118321] (rmsimulator_listener) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Klong int\x1b[m\x1b[K\n'}
+[2.118344] (rmsimulator_listener) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[2.205044] (-) TimerEvent: {}
+[2.305356] (-) TimerEvent: {}
+[2.405697] (-) TimerEvent: {}
+[2.506038] (-) TimerEvent: {}
+[2.606356] (-) TimerEvent: {}
+[2.706694] (-) TimerEvent: {}
+[2.807035] (-) TimerEvent: {}
+[2.907387] (-) TimerEvent: {}
+[3.007749] (-) TimerEvent: {}
+[3.108009] (-) TimerEvent: {}
+[3.208325] (-) TimerEvent: {}
+[3.308547] (-) TimerEvent: {}
+[3.408803] (-) TimerEvent: {}
+[3.509021] (-) TimerEvent: {}
+[3.609353] (-) TimerEvent: {}
+[3.709606] (-) TimerEvent: {}
+[3.809851] (-) TimerEvent: {}
+[3.910168] (-) TimerEvent: {}
+[4.010509] (-) TimerEvent: {}
+[4.110723] (-) TimerEvent: {}
+[4.211057] (-) TimerEvent: {}
+[4.311396] (-) TimerEvent: {}
+[4.411731] (-) TimerEvent: {}
+[4.512069] (-) TimerEvent: {}
+[4.612319] (-) TimerEvent: {}
+[4.712560] (-) TimerEvent: {}
+[4.812909] (-) TimerEvent: {}
+[4.913248] (-) TimerEvent: {}
+[5.013496] (-) TimerEvent: {}
+[5.113743] (-) TimerEvent: {}
+[5.214107] (-) TimerEvent: {}
+[5.314362] (-) TimerEvent: {}
+[5.414602] (-) TimerEvent: {}
+[5.477095] (rmsimulator_listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rmsimulator_listener\x1b[0m\n'}
+[5.514705] (-) TimerEvent: {}
+[5.615014] (-) TimerEvent: {}
+[5.689995] (rmsimulator_listener) StdoutLine: {'line': b'[100%] Built target rmsimulator_listener\n'}
+[5.696047] (rmsimulator_listener) CommandEnded: {'returncode': 0}
+[5.711781] (rmsimulator_listener) JobProgress: {'identifier': 'rmsimulator_listener', 'progress': 'install'}
+[5.715077] (-) TimerEvent: {}
+[5.720568] (rmsimulator_listener) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/build/rmsimulator_listener'], 'cwd': '/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/build/rmsimulator_listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'qing'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/qing'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1901'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=14f23ccc666bf39ec1093b2866c09d99'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qing'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qing-5520:@/tmp/.ICE-unix/1901,unix/qing-5520:/tmp/.ICE-unix/1901'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f424be4a_33f0_4f56_8c1e_fc185c67e556'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JRHNS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/build/rmsimulator_listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=14f23ccc666bf39ec1093b2866c09d99'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.727386] (rmsimulator_listener) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.727549] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/lib/rmsimulator_listener/rmsimulator_listener\n'}
+[5.730262] (rmsimulator_listener) StdoutLine: {'line': b'-- Set runtime path of "/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/lib/rmsimulator_listener/rmsimulator_listener" to ""\n'}
+[5.730370] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/ament_index/resource_index/package_run_dependencies/rmsimulator_listener\n'}
+[5.730413] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/ament_index/resource_index/parent_prefix_path/rmsimulator_listener\n'}
+[5.730456] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/rmsimulator_listener/environment/ament_prefix_path.sh\n'}
+[5.730490] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/rmsimulator_listener/environment/ament_prefix_path.dsv\n'}
+[5.730522] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/rmsimulator_listener/environment/path.sh\n'}
+[5.730554] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/rmsimulator_listener/environment/path.dsv\n'}
+[5.730602] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/rmsimulator_listener/local_setup.bash\n'}
+[5.730631] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/rmsimulator_listener/local_setup.sh\n'}
+[5.730660] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/rmsimulator_listener/local_setup.zsh\n'}
+[5.730688] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/rmsimulator_listener/local_setup.dsv\n'}
+[5.730716] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/rmsimulator_listener/package.dsv\n'}
+[5.730837] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/ament_index/resource_index/packages/rmsimulator_listener\n'}
+[5.730901] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/rmsimulator_listener/cmake/rmsimulator_listenerConfig.cmake\n'}
+[5.731213] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/rmsimulator_listener/cmake/rmsimulator_listenerConfig-version.cmake\n'}
+[5.731303] (rmsimulator_listener) StdoutLine: {'line': b'-- Installing: /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.3sensor_storage/rmsimulator_listener/install/rmsimulator_listener/share/rmsimulator_listener/package.xml\n'}
+[5.732418] (rmsimulator_listener) CommandEnded: {'returncode': 0}
+[5.770481] (rmsimulator_listener) JobEnded: {'identifier': 'rmsimulator_listener', 'rc': 0}
+[5.771054] (-) EventReactorShutdown: {}

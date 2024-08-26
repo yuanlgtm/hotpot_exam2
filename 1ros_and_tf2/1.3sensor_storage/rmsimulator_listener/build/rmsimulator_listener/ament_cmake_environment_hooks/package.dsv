@@ -1,0 +1,4 @@
+source;share/rmsimulator_listener/local_setup.bash
+source;share/rmsimulator_listener/local_setup.dsv
+source;share/rmsimulator_listener/local_setup.sh
+source;share/rmsimulator_listener/local_setup.zsh

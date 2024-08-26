@@ -1,0 +1,4 @@
+source;share/fps_calculator/local_setup.bash
+source;share/fps_calculator/local_setup.dsv
+source;share/fps_calculator/local_setup.sh
+source;share/fps_calculator/local_setup.zsh
