@@ -74,6 +74,9 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "queue": "cpp",
-        "*.ipp": "cpp"
+        "*.ipp": "cpp",
+        "span": "cpp",
+        "charconv": "cpp",
+        "format": "cpp"
     }
 }
