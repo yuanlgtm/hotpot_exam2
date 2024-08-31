@@ -1,4 +1,4 @@
-#include "fps_calculator.hpp"
+#include "fps_calculator/fps_calculator.hpp"
 
 FpsCalculatorNode::FpsCalculatorNode() : Node("fps_calculator_node"), image_count_(0), fps_(0.0)
 {

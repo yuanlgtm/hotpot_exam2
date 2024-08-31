@@ -13,6 +13,13 @@ find_package(geometry_msgs REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+# Include
+include_directories(include)
+# Install include directories
+install(DIRECTORY include/
+  DESTINATION include
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
