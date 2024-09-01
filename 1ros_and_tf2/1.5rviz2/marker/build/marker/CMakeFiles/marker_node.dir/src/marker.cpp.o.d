@@ -1,6 +1,7 @@
 CMakeFiles/marker_node.dir/src/marker.cpp.o: \
  /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.5rviz2/marker/src/marker.cpp \
  /usr/include/stdc-predef.h \
+ /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.5rviz2/marker/include/marker/marker.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

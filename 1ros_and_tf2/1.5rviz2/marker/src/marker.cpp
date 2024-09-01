@@ -15,9 +15,9 @@ void CoordinateTransformer::callback(const geometry_msgs::msg::PointStamped::Sha
     geometry_msgs::msg::PointStamped camera_frame_point;
     camera_frame_point.header = msg->header;
     camera_frame_point.header.frame_id = "camera_link";  // 确保设置正确的源坐标系名称
-    camera_frame_point.point.x = msg->point.x;
-    camera_frame_point.point.y = -msg->point.z;  // 交换并取负
-    camera_frame_point.point.z = msg->point.y;   // 交换
+    camera_frame_point.point.x = -msg->point.z;  // 交换并取负
+    camera_frame_point.point.y = msg->point.y;
+    camera_frame_point.point.z = msg->point.x;   // 交换
 
     // 第二步：将坐标从相机光心坐标系转换到base_link坐标系
     try 

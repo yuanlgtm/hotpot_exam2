@@ -1,3 +1,4 @@
+/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.5rviz2/marker/install/marker/include/marker/marker.hpp
 /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.5rviz2/marker/install/marker/lib/marker/marker_node
 /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.5rviz2/marker/install/marker/share/ament_index/resource_index/package_run_dependencies/marker
 /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.5rviz2/marker/install/marker/share/ament_index/resource_index/parent_prefix_path/marker

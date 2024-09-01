@@ -1,3 +1,4 @@
+/media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.4tf2/urdf_base_tf2/install/urdf_base_tf2/include/urdf_base_tf2/urdf_base_tf2.hpp
 /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.4tf2/urdf_base_tf2/install/urdf_base_tf2/lib/urdf_base_tf2/urdf_base_tf2_node
 /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.4tf2/urdf_base_tf2/install/urdf_base_tf2/share/ament_index/resource_index/package_run_dependencies/urdf_base_tf2
 /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.4tf2/urdf_base_tf2/install/urdf_base_tf2/share/ament_index/resource_index/parent_prefix_path/urdf_base_tf2

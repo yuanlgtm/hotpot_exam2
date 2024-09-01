@@ -1,6 +1,7 @@
 CMakeFiles/urdf_base_tf2_node.dir/src/urdf_base_tf2.cpp.o: \
  /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.4tf2/urdf_base_tf2/src/urdf_base_tf2.cpp \
  /usr/include/stdc-predef.h \
+ /media/qing/NEW/RM/hotpot_exam2/1ros_and_tf2/1.4tf2/urdf_base_tf2/include/urdf_base_tf2/urdf_base_tf2.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
